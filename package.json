@@ -46,6 +46,7 @@
     "vue-template-compiler": "^2.5.17"
   },
   "scripts": {
+    "run": "node server/server.js",
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "setup": "node setup.js",
